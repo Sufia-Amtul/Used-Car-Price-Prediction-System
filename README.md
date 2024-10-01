@@ -1,10 +1,16 @@
-# Used-Car-Price-Prediction-System
-Data Science and Machine Learning
+# Used-Car-Price-Prediction-System 
+
+
+### Table of Contents
+- [Introduction](#introduction)
+- [Objective](#objective)
+- [Method](#method)
+- [Reference](#reference)
 
 ## Introduction
   The used car market has become a booming industry in recent years, with India being one of the leading countries in the world in terms of vehicle production. In the financial year 2022, the total production volume of vehicles in India was around 22.9 million units, which was an increase from the previous year[12]. The production of cars has given rise to the used car market, which was valued at USD 32.14 billion in India and is expected to reach USD 74.70 billion, registering a CAGR of 15.1% during the forecast period. However, predicting the prices of used cars accurately can be a daunting task due to the highly competitive and dynamic nature of the market, as well as the vast variety of products available. 
 
-## Project Overview
+## Objective
   The primary objective of this project is to perform a comparison of supervised machine learning algorithms namely Linear Regression(LR), Random Forest(RF), XGBoost(XGB), Support Vector Machine (SVM), and K-Nearest Neighbour (KNN) for predicting the price of used cars on given dataset from Kaggle. In addition to this, we aim to achieve the following objectives:
 
   -	Review and synthesize existing literature on the used car market and establish a robust benchmark for efficient machine learning model development.
@@ -20,15 +26,17 @@ Data Science and Machine Learning
 ### Data Source:
 Sales Data: The primary dataset used for analysis was acquired from Kaggle. The dataset is split into train.csv and test.csv datasets for convenience. 
 
-### Method 
+## Method 
 The experimentation procedure can be described as follows:
 ![image](https://github.com/user-attachments/assets/68a2e137-255e-45c6-a0f3-2eb44e06ec80)
 
 **1. Data Cleaning/Preprocessing and Exploratory Data Analysis(EDA)**
+
 In the initial data preparation phase, we performed the following tasks:
 - Data loading and inspection
 - Handling missing values
 - Data cleaning and formatting
+
 After pre-processing the data, EDA performed to extract following insights:
 - What factors strongly influence the price of a used car?
 - What impact does a brand of used car has on its price?
